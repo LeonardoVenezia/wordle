@@ -1,0 +1,28 @@
+.SwitchMode {
+    width: 60px;
+    height: 30px;
+    background-image: url('/icons/switch-body-day.svg');
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    &.nightBackround {
+        background-image: url('/icons/switch-body.svg');
+    }
+}
+
+.ball {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(180deg, #FFC123 0%, #F8832E 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: none;
+    right: 4px;
+    transition: 1s;
+
+    &.night {
+        right: none;
+        left: 4px;
+    }
+}

@@ -1,0 +1,42 @@
+.Letter {
+    width: 78px;
+    height: 78px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.little {
+        height: 51px;
+        width: 45px;
+        font-size: 18px;
+        background-color: #939B9F4D;
+        border: 1px solid #939B9F4D;
+        color: #56575E;
+    }
+    .content {
+        font-weight: 800;
+        font-size: 35px;
+        text-transform: uppercase;
+    }
+}
+
+.right {
+    background-color: #6AAA64;
+    border: 1px solid #6AAA64;
+}
+
+.rightBut {
+    background-color: #CEB02C;
+    border: 1px solid #CEB02C;
+}
+
+.incorrect {
+    background-color: #939B9F;
+    border: 1px solid #939B9F;
+}
+
+.empty {
+    background-color: #939B9F4D;
+    border: 1px solid #939B9F4D;
+}

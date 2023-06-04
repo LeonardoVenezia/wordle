@@ -1,0 +1,16 @@
+.header {
+  margin-top: 83px;
+  display: flex;
+  width: 638px;
+  border-radius: 15px;
+  background-color: #F3F3F3;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 22px;
+
+  .switchContainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

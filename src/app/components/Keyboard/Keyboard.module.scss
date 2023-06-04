@@ -1,0 +1,29 @@
+.Keyboard {
+    width: 638px;
+    background-color: rgba(218, 220, 224, 0.3);
+    border-radius: 15px;
+    padding: 33px 0;
+    margin-top: 54px;
+
+    .row {
+        display: flex;
+        gap: 9.5px;
+        margin-bottom: 9px;
+        &.one {
+            padding-left: 52.6px;
+        }
+        &.two {
+            padding-left: 68px;
+        }
+        &.three {
+            padding-left: 20px;
+        }
+        .button {
+            background-color: #D3D6DA;
+            color: #56575E;
+            width: 72px;
+            border: none;
+            border-radius: 5px;
+        }
+    }
+}
